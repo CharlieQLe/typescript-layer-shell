@@ -1,0 +1,69 @@
+{
+    "options": {
+        "inferGenerics": true,
+        "promisify": true,
+        "propertyCase": "camel",
+        "versionedOutput": true,
+        "versionedImports": true,
+        "out": "./gi-types"
+    },
+    "libraries": {
+        "AppIndicator3": [
+            "0.1"
+        ],
+        "cairo": [
+            "1.0"
+        ],
+        "DBus": [
+            "1.0"
+        ],
+        "DBusGLib": [
+            "1.0"
+        ],
+        "Dbusmenu": [
+            "0.4"
+        ],
+        "fontconfig": [
+            "2.0"
+        ],
+        "freetype2": [
+            "2.0"
+        ],
+        "GDesktopEnums": [
+            "3.0"
+        ],
+        "Gdk": [
+            "3.0"
+        ],
+        "GdkPixbuf": [
+            "2.0"
+        ],
+        "GdkPixdata": [
+            "2.0"
+        ],
+        "Gio": [
+            "2.0"
+        ],
+        "GIRepository": [
+            "2.0"
+        ],
+        "GL": [
+            "1.0"
+        ],
+        "GLib": [
+            "2.0"
+        ],
+        "GModule": [
+            "2.0"
+        ],
+        "GObject": [
+            "2.0"
+        ],
+        "Gtk": [
+            "3.0"
+        ],
+        "GtkLayerShell": [
+            "0.1"
+        ]
+    }
+}

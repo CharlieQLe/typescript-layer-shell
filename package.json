@@ -1,0 +1,18 @@
+{
+  "name": "my-layer-shell",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@gi.ts/cli": "^1.5.10",
+    "@gi.ts/lib": "^1.5.13"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "compile": "tsc --strict",
+    "generate:gi": "gi-ts generate",
+    "test": "gjs -m tsc-out/main.js"
+  }
+}
